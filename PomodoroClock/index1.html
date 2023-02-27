@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+
+    <div class="pomo-container">
+        <h2 id="name-clock">POMODORO CLOCK</h2>
+    <div class="row-container clock-container">
+        <!--2 minutes pour debogger-->
+        <h1 id="clock"><span id="minutes">25</span><span>:</span><span id="seconds">00</span></h1>
+    </div>
+
+    <div class="row-container start-container">
+        <button id="startStop">START</button>
+
+    </div>
+
+    <div class="row-container settings-container">
+        <div class="input-container">
+            <label for="totalMinutesTimer">TIMER</label>
+            <input id="totalMinutesTimer" type="number" value="25" min="1" max="60"/>
+            
+            
+        </div>
+
+        <div class="message-container">
+            <span id="message">Are you READY?</span>
+        </div>
+
+        <div class="input-container">
+            <label for="shortBreak">BREAK</label>
+            <button id="shortBreak">5 MINS</button>
+           
+            
+        </div>
+
+        <script src="script.js"></script>
+</div>
+</div>
+</body>
+</html>
